@@ -1,0 +1,227 @@
+
+nav{
+    width: 100%;
+}
+nav li{
+    color: white;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+nav li a,.dibup{
+    color: white;
+}
+.footer>image{
+    width: 20%;
+}
+
+.footer>p{
+    color: white;
+    width: 20%;
+}
+.daohang{
+    float: left;
+    /*background: white;*/
+    width: 50%;
+    /*height: 60px;*/
+    text-align: center;
+    line-height: 60px;
+    list-style: none;
+}
+.daohang>a{
+    color: black;
+}
+.nav1{
+    background: white;
+    height: 60px;
+}
+.duan1，.duan2 {
+    line-height: 24px;
+}
+div.duan2
+{
+    display:none;
+}
+.zhankai{
+    text-align: center;
+    color: deepskyblue;
+}
+.zhankaicang{
+    display: none;
+}
+.shouqi{
+    text-align: center;
+    color: deepskyblue;
+    display: none;
+}
+.dibuimge{
+    float: left;
+    /*background: lightsteelblue;*/
+    /*line-height: 60px;*/
+    margin-top: 15px;
+
+}
+.dibup{
+    float: left;
+    line-height: 60px;
+}
+.dibuli{
+    display: inline;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    left: 38%;
+}
+.dibu{
+    /*text-align: center;*/
+    width: 100%;
+    height: 60px;
+    background: lightsteelblue;
+    position:fixed;
+    bottom: 0;
+
+}
+.divkefang{
+    width: 100%;
+    height: 260px;
+    background-image: url("../imge/哈哈哈.jpg");
+    background-size: cover;
+
+}
+.kefangp1 {
+    float: left;
+    line-height:40px ;
+    color: white;
+}
+.kefangp2{
+    float: right;
+    line-height:40px ;
+    color: white;
+}
+.divkefang>.kefangul{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    top: 220px;
+    /*background: gray;*/
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.divp{
+    line-height: 60px;
+    width: 50%;
+    color: red;
+    text-align: center;
+}
+.kefangli2{
+    height: 50px;
+    width: 33%;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+
+}
+.zhankai1{
+    text-align: center;
+    color: red;
+}
+.zhankaicang{
+    display: none;
+}
+.shouqi1{
+    text-align: center;
+    color: red;
+    display: none;
+}
+.buttonkefang{
+    padding: 10px;
+    color: white;
+    background: red;
+    border-radius:10px;
+    border: none;
+    width: 90px;
+}
+.divcanyin{
+    width: 100%;
+    height: 260px;
+    background-image: url("../imge/哈哈哈.jpg");
+    background-size: cover;
+}
+.canyinp1{
+    float: left;
+
+}
+.canyinp2 {
+    float: right;
+}
+.kefangli3{
+    height: 60px;
+    width: 100%;
+    position: relative;
+    top: 200px;
+    line-height: 60px;
+    background: whitesmoke;
+    background-size: cover;
+}
+.tehuili{
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+.tehuili1{
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-image: url("../imge/背景.jpg");
+    background-size: cover;
+}
+.ziti1,.ziti2,.ziti3,.ziti4{
+    line-height: 40px;
+    text-align: center;
+}
+.ziti2{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.ziti3{
+    color: rgba(0, 0, 0, 0.5);
+}
+.tehuibutton{
+    padding: 10px;
+    border:none;
+    background: red;
+    color: white;
+    border-radius: 10px;
+    width: 56px;
+    height: 30px;
+    text-align: center;
+    line-height: 10px;
+}
+.shuru{
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+.biaodanp{
+    /*line-height: 36px;*/
+    width: 100%;
+    text-align: center;
+    background: white;
+
+}
+form{
+    position: relative;
+    top: 10px;
+}
+.anniu{
+    padding: 10px;
+    border: none;
+    color: white;
+    background: red;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    border-radius: 10px;
+}

@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="renderer" content="webkit">
+    <title>酒店</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="css/gg.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="layer-v3.0.3/layer/layer.js"></script>
+    <script type="text/javascript">
+        jQuery(function () {
+            $('#menu-trigger').click(function () {
+                if (!$('.dLeft').hasClass('mobile-menu-left')) {
+                    $('.header, .sild, .footer').addClass('mobile-left');
+                    $('.dLeft').addClass('mobile-menu-left');
+                } else {
+                    $('.dLeft').removeClass('mobile-menu-left');
+                    $('.header, .sild, .footer').removeClass('mobile-left');
+                }
+            });
+        });
+        jQuery(function () {
+            $(".bodadianhua").click(function(){
+                layer.open({
+                    content: '您确定要拨打电话吗？'
+                    ,btn: ['是的', '不要']
+                    ,yes: function(index){
+                        location.reload();
+                        layer.close(index);
+                    }
+                })
+            });
+        });
+    </script>
+</head>
+
+<body class="body">
+<div class="dLeft" >
+    <ul class="cebian">
+        <li class="celi">
+            <a href="index3.html"><img src="imge/首页.png"  width="33px" height="33px" class="cebiao">
+            <p class="cep">&nbsp首页</p></a>
+        </li>
+
+        <hr size="0.01px"  width="90%"  style="margin-left: 5% ;margin-top: 15px;border-bottom: none">
+        <li class="celi">
+            <a href="酒店印象.html"><img src="imge/酒店音印象.png" alt=""  width="33px" height="33px" class="cebiao">
+            <p class="cep">&nbsp酒店印象</p>
+            </a>
+        </li>
+        <hr size="0.01px"  width="90%"  style="margin-left: 5% ;margin-top: 15px;border-bottom: none">
+        <li class="celi">
+            <a href="客房预订.html" ><img src="imge/客房预订.png" alt=""  width="33px" height="33px" class="cebiao">
+                <p class="cep">&nbsp客房预订</p>
+            </a>
+        </li >
+        <hr size="0.01px"  width="90%"  style="margin-left: 5% ;margin-top: 15px;border-bottom: none">
+        <li class="celi">
+            <a href="餐饮美食.html">
+                <img src="imge/餐饮美食.png" alt=""  width="33px" height="33px" class="cebiao">
+                <p class="cep">&nbsp餐饮美食</p></a>
+        </li>
+        <hr size="0.01px"  width="90%"  style="margin-left: 5% ;margin-top: 15px;border-bottom: none">
+        <li class="celi">
+            <a href="特惠推荐.html" >
+                <img src="imge/特惠推荐.png" alt=""  width="33px" height="33px" class="cebiao">
+                <p class="cep">&nbsp特惠推荐</p>
+            </a>
+        </li>
+        <hr size="0.01px"  width="90%"  style="margin-left: 5% ;margin-top: 15px;border-bottom: none">
+        <li class="celi">
+            <a href="会议宴会.html" >
+                <img src="imge/会议宴会.png" alt=""  width="33px" height="33px" class="cebiao">
+                <p class="cep">&nbsp会议宴会</p>
+            </a>
+        </li>
+        <hr size="0.01px"  width="90%"  style="margin-left: 5% ;margin-top: 15px;border-bottom: none">
+        <li class="celi">
+            <a href=""><img src="imge/360度全景.png" alt=""  width="33px" height="33px" class="cebiao">
+            <p class="cep">&nbsp360度全景</p></a>
+        </li>
+        <hr size="0.01px"  width="90%"  style="margin-left: 5% ;margin-top: 15px;border-bottom: none">
+    </ul>
+</div>
+<header class="header">
+    <a id="menu-trigger" href="javascript:void(0)" class="biaoti"><img src="imge/三个条.png"></a>
+
+    <p class="shu" >|</p>
+    <img src="imge/瑞吉.png" alt="" class="biaoti" width="90px" height="33px">
+    <p class="ss">&nbsp</p>
+    <p class="en">EN</p>
+    <p class="shu" >|</p>
+    <div class="bodadianhua"><img src="imge/拨打电话.png" alt="" class="biaoti" width="32px" height="33px" ></div>
+    <p class="shu" >|</p>
+    <a href="注册.html"><img src="imge/个人用户.png" alt="" class="biaoti" width="32px" height="33px" ></a>
+</header>
+<!--<iframe src="" frameborder="0" name="iframe" width="300px" height="300px" ></iframe>-->
+<section class="section">
+<div class="footer" id="footer">
+    <nav>
+        <ul id="footer_list">
+            <li class="list_li yinxiang">
+                <a href="酒店印象.html" >
+                    <img src="imge/酒店音印象.png" alt="" class="tubiao" width="66px" height="66px">
+                    <p>酒店印象</p>
+                </a>
+            </li>
+            <li class="list_li yuding">
+                <a href="客房预订.html" >
+                    <img src="imge/客房预订.png" alt="" class="tubiao" width="66px" height="66px">
+                    <p>客房预订</p>
+                </a>
+            </li>
+            <li class="list_li meishi">
+                <a href="餐饮美食.html">
+                    <img src="imge/餐饮美食.png" alt="" class="tubiao" width="66px" height="66px">
+                    <p>餐饮美食</p></a>
+            </li>
+            <li class="list_li tehui">
+                <a href="特惠推荐.html" >
+                    <img src="imge/特惠推荐.png" alt="" class="tubiao" width="66px" height="66px">
+                    <p>特惠推荐</p>
+                </a>
+            </li>
+            <li class="list_li huiyi ">
+                <a href="会议宴会.html" >
+                    <img src="imge/会议宴会.png" alt="" class="tubiao" width="66px" height="66px">
+                    <p>会议宴会</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+</section>
+</body>
+
+</html>
